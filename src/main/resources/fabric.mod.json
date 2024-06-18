@@ -1,0 +1,35 @@
+{
+	"schemaVersion": 1,
+	"id": "pig",
+	"version": "${version}",
+	"name": "Pig",
+	"description": "pig crystal faster optimazer",
+	"authors": [
+		"PigTu"
+	],
+	"contact": {
+		"homepage": "https://github.com/PigTu/PigCFO",
+		"sources": "https://github.com/PigTu/PigCFO"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/pig/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"ru.pigtu.Pig"
+		]
+	},
+	"mixins": [
+		"pig.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*",
+		"midnightlib": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
